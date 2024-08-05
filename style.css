@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#name-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#name-container span {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+#input-container {
+    margin: 0 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 150px;
+    text-align: center;
+}
+
+#images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image-box {
+    width: 100px;
+    height: 150px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+#link-icon {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#result-message {
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+}
+
+/* Ensure images are hidden by default */
+.hidden-image {
+    display: none;
+}
+
+.image-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
